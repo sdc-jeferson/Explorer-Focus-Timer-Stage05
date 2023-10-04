@@ -1,4 +1,4 @@
-<h1 align="center">Explorer -  Stage05 - Calculo de Indice de Massa Corporal</h1>
+<h1 align="center">Explorer -  Stage05 - Focus Timer (Pomodoro)</h1>
 
 <div align="center">
 <img width="220px" src="https://raw.githubusercontent.com/Rocketseat/awesome/master/assets/logo_rocketseat.png" alt="">&nbsp;&nbsp;&nbsp;
