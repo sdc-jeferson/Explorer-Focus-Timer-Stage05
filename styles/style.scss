@@ -1,0 +1,64 @@
+@import './abstract/variables';
+@import './abstract/base';
+
+
+.hide{
+    display: none;
+
+}
+
+.play svg path,
+.pause svg path,
+.sound-on svg path{
+    fill: $primary-color;
+}
+
+
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+button svg{
+    width: clamp(3.2rem, 2rem + 12vw, 6.4rem);
+}
+
+
+main{
+    justify-self: center;
+    align-self: end;
+
+    #timer{
+        font-size: clamp(4rem, 4rem + 10vw, 8.8rem);
+        display: flex;
+        margin-bottom: 1.6rem;
+    }
+    
+    #controls{
+        width: clamp(10rem, 10rem + 30vw, 22.8rem);
+        height: clamp(8rem, 5rem + 1vh, 10.8rem);
+        background-color: $bg-primary-light;
+        display: flex;
+        gap: 3.2rem;
+        align-items: center;
+        justify-content: center;
+        border-radius: 999px;
+        
+    }
+
+}
+
+footer{
+    align-self: end;
+    justify-self: end;
+    padding: 0 4rem 3.2rem 0;
+}
+
+
+
+
+
+
+
+
